@@ -1,0 +1,8 @@
+#Sat Mar 05 21:48:53 EST 2016
+location=src/main/resources/phonedirectoryfile.txt
+John=123456
+Don=111111
+Joanna=123767
+Mark=234534
+Peter=445677
+Bobby=789333
