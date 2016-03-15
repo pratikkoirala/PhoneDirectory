@@ -7,7 +7,7 @@ public class DriverProgram {
 
 	public static void main(String[] args) throws IOException{
 		
-			PhoneDirectory testDirectory = new PhoneDirectory();
+			PhoneDirectory testDirectory = new PhoneDirectory("src/main/resources/phonedirectoryfile.txt");
 			
 			testDirectory.addEntry("John", "123456");
 			

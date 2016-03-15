@@ -11,12 +11,12 @@ public class PhoneDirectory {
 	
 	
 	/* Constructor of the PhoneDirectory class
+	 * @param location    the location of the the phone directory file in string
 	 */
-	public PhoneDirectory() throws IOException
+	public PhoneDirectory(String location) throws IOException
 	{		
-		InputStream input = new FileInputStream("src/main/resources/phone.properties");
-		prop.load(input);
-		file_location = prop.getProperty("location");
+		
+		file_location = location;
 	}
 	
     /* @throws IOException if an input or output exception occurred
